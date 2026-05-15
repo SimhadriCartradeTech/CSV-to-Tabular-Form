@@ -16,9 +16,6 @@ Vue.createApp({
                 for(let i=1;i<lines.length;i++){
                     this.rows.push(lines[i].trim().split(","));
                 }
-                // lines.forEach(element => {
-                //     this.rows.push(element.trim().split(","));
-                // });
             }
             reader.readAsText(file);
         }
